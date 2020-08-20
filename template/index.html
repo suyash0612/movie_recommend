@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    {% load static %}
+    <link href="{% static 'action.css' %}" rel="stylesheet">
+
+    <title>Movieteller</title>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
+    
+     
+    <div class="container">
+        <div class="row p-4" ><h1 id="title" style="background-color: black; color: rgb(177, 0, 0); size: 60px;font-family: 'Anton', sans-serif;">Movieteller</h1></div>
+        
+          <div class="row p-4 b-3">
+            <div class="col" id="cover" >
+              <img src={{Poster}} alt="movie cover" class="image" width="250px" height="300px">
+            </div>
+            <div class="col-xl" id="heading" >
+              <h1 class="movie">{{Title}}</h1>
+            </div>
+        
+          </div>
+
+          <hr>
+        
+        <div class="row">
+            <div class="col" class="question">Imdb Rating</div>
+            <div class="col" class="answer">{{imdbRating}}</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col" class="question">Genre</div>
+          <div class="col" class="answer">{{Genre}}</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col" class="question">Released</div>
+          <div class="col" class="answer">{{Released}}</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col" class="question">Actors</div>
+          <div class="col" class="answer">{{Actors}}</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col" class="question">Plot</div>
+          <div class="col" class="answer">{{Plot}}</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col" class="question">Production</div>
+          <div class="col" class="answer">{{Production}}</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col" class="question">Director</div>
+          <div class="col" class="answer">{{Director}}</div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col" class="question">Awards</div>
+          <div class="col" class="answer">{{Awards}}</div>
+        </div>
+
+        <hr>   
+
+        <!-- <button class="btn btn-danger p-2"  onclick="topFunction()" id="myBtn" style="position: fixed; bottom: 0; margin: 10px;" >Scroll Up</button> -->
+        <span>
+          <div class="item1"><a class="scroll" onclick="topFunction()" id="myBtn" style="color:#ffffff;" >Scroll</a></div>
+        </span>
+        
+        
+    
+
+    <div class="container" id="con" style="border-radius: 10px;">
+      <div class="grid-container">
+        <div class="item1"><a  class="button1" id="reviewer" style="color:#ffffff;">Movie Reviews</a></div>
+        <div class="item2"><a  class="button1" id="recommender" style="color:#ffffff;">Recommend Movies</a></div>
+      </div> 
+
+      <div class="row">
+        <!-- <div class="col-6"><button class="btn btn-danger btn-lg"  id="reviewer" style="float: right;" >reviews analyzer</button></div>
+        
+        <div class="col-6"><button class="btn btn-danger btn-lg" id="recommender" style="float: left;">movie recommender</button></div> -->
+       
+        <div class="col-xl" id="load1" style="display: none;text-align: center;">
+          <img src="{% static '8.gif' %}" alt="loader" >
+        </div>
+      </div>
+      
+      <div class="row">
+        <div id="add_on" class="container p-4" ></div>
+        <div id="add_in" class="container p-4"></div>
+        <!-- <button class="btn btn-danger p-2"  onclick="topFunction()" id="myBtn" style="position: sticky;" >Scroll Up</button> -->
+      </div>
+      
+      <div class="grid-container">
+        <div class="item3"><a href="/" class="button1" >Back</a></div>
+      </div>
+      
+
+    </div>
+      
+  </div>
+    
+      
+   
+    
+
+    <script type="text/javascript" src="{% static 'logic.js' %}"></script>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

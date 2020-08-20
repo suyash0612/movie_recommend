@@ -1,0 +1,241 @@
+/* 
+body{
+  background-color: black;
+  
+  }
+
+@media only screen and (max-width: 600px) {
+
+
+  img{
+
+
+    width: 100%;
+    height: 520px;
+    padding: -10px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(117, 68, 68, 0.45) 15%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 15%);
+  }
+
+  .spanner{
+    font-family: fantasy;
+    background-color: rgba(241, 68, 0, 0.973);
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .input-group{
+    position:relative;
+    bottom: 40%;
+    width: 100%;
+    margin-top: -500px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  
+  .form-control{
+    align-content: center;
+    font-family: fantasy;
+    background-color: rgb(36, 34, 34);
+  }
+  
+  .btn{
+    background-color: rgb(252, 22, 6);
+  }
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  body{
+    background-color: rgb(0, 0, 0);
+    }
+
+
+  img{
+
+
+    width: 100%;
+    height: 650px;
+    padding: -10px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(117, 68, 68, 0.45) 15%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 15%);
+  }
+
+  .spanner{
+    font-family: fantasy;
+    background-color: rgba(241, 68, 0, 0.973);
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+  }
+  
+  .input-group{
+    position:relative;
+    bottom: 40%;
+    width: 100%;
+    margin-top: -500px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  
+  .form-control{
+    align-content: center;
+    font-family: fantasy;
+    background-color: rgb(36, 34, 34);
+  }
+  
+  
+
+}
+
+.loader{
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  height: 100%;
+  align-content: center;
+} */
+
+
+
+
+
+
+
+body{
+  background-color: black;
+  
+  }
+
+#title{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: rgb(184, 50, 26);
+    color: white;
+    width: 100%;
+    border-radius:10px;
+    text-align: center;
+  }
+
+@media only screen and (max-width: 600px) {
+
+
+  img{
+
+
+    width: 100%;
+    height: 520px;
+    padding: -10px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(117, 68, 68, 0.45) 15%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 15%);
+  }
+
+  .spanner{
+    font-family: fantasy;
+    background-color: rgba(241, 68, 0, 0.973);
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .input-group{
+    position:relative;
+    bottom: 40%;
+    width: 100%;
+    margin-top: -500px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  
+  .form-control{
+    align-content: center;
+    font-family: fantasy;
+    background-color: rgb(36, 34, 34);
+  }
+  
+  .btn{
+    background-color: rgb(252, 22, 6);
+  }
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  body{
+    background-color: rgb(0, 0, 0);
+    }
+
+
+  img{
+
+
+    width: 100%;
+    height: 550px;
+    padding: -10px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(117, 68, 68, 0.45) 15%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.45) 15%);
+  }
+
+  .spanner{
+    font-family: fantasy;
+    background-color: rgba(241, 68, 0, 0.973);
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+  }
+  
+  .input-group{
+    position:relative;
+    bottom: 40%;
+    width: 100%;
+    margin-top: -500px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
+  
+  .form-control{
+    align-content: center;
+    font-family: fantasy;
+    background-color: rgb(36, 34, 34);
+  }
+  
+  
+
+}
+
+.loader{
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  height: 100%;
+  align-content: center;
+}
+
+footer{
+  position:fixed; 
+  padding: 10px 10px 0px 10px; 
+  bottom: 0; 
+  width: 100%; 
+  /* Height of the footer*/  
+  height: 60px; 
+  background:black;
+  color: aliceblue;
+  font-family: cursive;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(117, 68, 68, 0.95) 15%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.95) 15%);
+  border-style: hidden
+}
+
+
+

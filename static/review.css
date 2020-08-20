@@ -1,0 +1,21 @@
+body{
+    background-color: black;   
+    
+}
+
+.container{
+    
+    border: 5px;
+}
+
+.row{
+    border-color: cadetblue;
+}
+
+#heading{
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    font-size: 30px;
+}
